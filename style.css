@@ -313,3 +313,6 @@ address {
   margin-bottom: 30px;
   margin-top: 94px;
 }
+.network-item {
+  color: var(--secondary-text-color);
+}
