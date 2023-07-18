@@ -94,6 +94,7 @@ li {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+
 .contacts-icon:hover,
 .contacts-icon:focus,
 .nav-link:hover,
@@ -101,6 +102,7 @@ li {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .contacts-link {
   color: var(--primary-text-color);
@@ -314,5 +316,12 @@ address {
   margin-top: 94px;
 }
 .network-item {
-  color: var(--secondary-text-color);
+  fill: rgba(175, 177, 184, 1);
+}
+.network-list {
+  display: flex;
+  justify-content: center;
+}
+.network-icon {
+  fill: rgba(175, 177, 184, 1);
 }
