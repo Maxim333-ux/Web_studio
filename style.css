@@ -190,9 +190,33 @@ H1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-
+  margin-bottom: 16px;
   color: var(--secondary-text-color);
   padding-top: 10px;
+}
+.network-list {
+  display: flex;
+  justify-content: center;
+}
+.network-item {
+  padding-right: 10px;
+}
+.network-link {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  color: var(--secondary-text-color);
+  justify-content: center;
+  align-items: center;
+}
+.network-icon {
+  fill: currentColor;
+}
+.network-link:hover,
+.network-link:focus {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  border-radius: 50%;
 }
 .navik {
   font-weight: 400;
@@ -314,14 +338,4 @@ address {
   justify-content: space-around;
   margin-bottom: 30px;
   margin-top: 94px;
-}
-.network-item {
-  fill: rgba(175, 177, 184, 1);
-}
-.network-list {
-  display: flex;
-  justify-content: center;
-}
-.network-icon {
-  fill: rgba(175, 177, 184, 1);
 }
