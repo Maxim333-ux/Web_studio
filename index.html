@@ -58,12 +58,22 @@
         <div class="container">
         <!-- секція герой -->
         <h1>Ефективні рішення для <br> вашого бізнесу</h1>
-        <button class="hero-button">Замовити послугу</button>
+        <button class="hero-button " data-open-modal>Замовити послугу</button>
+      
+      </div>
+      <div class="backdrop is-hidden" data-backdrop>
+        <div class="modal">
+          
+          <button class="close" data-close-modal >
+            <img class="close-modal" src="imagis/advanture/close-black-18dp (2) 1.png" alt="">
+          </button>
+        </div>
         </div>
       </section>
       <section class="sekshion">
         <div class="container">
-          <ul class="img-slot-list"><li  class="img-slot"> <img src="./imagis/advanture/antenna 1.png" alt=""></li>
+          <ul class="img-slot-list"><li  class="img-slot"> 
+            <img src="./imagis/advanture/antenna 1.png" alt=""></li>
             <li class="img-slot"> <img src="./imagis/advanture/clock 1.png" alt=""></li>
             <li class="img-slot"> <img src="./imagis/advanture/diagram 1.png" alt=""></li>
             <li class="img-slot"> <img src="./imagis/advanture/astronaut 1.png" alt=""></li>
@@ -321,5 +331,25 @@
           </div>
           </section>
     </footer>
+     <script>
+      const refs = {
+        openModalBtn: document.querySelector("[data-open-modal]"),
+        closeModalBtn: document.querySelector("[data-close-modal]"),
+        backdrop: document.querySelector("[data-backdrop]"),
+      };
+
+      refs.openModalBtn.addEventListener("click", toggleModal);
+      refs.closeModalBtn.addEventListener("click", toggleModal);
+
+      refs.backdrop.addEventListener("click", logBackdropClick);
+
+      function toggleModal() {
+        refs.backdrop.classList.toggle("is-hidden");
+      }
+
+      function logBackdropClick() {
+        console.log("Это клик в бекдроп");
+      }
+    </script>
   </body>
 </html>
