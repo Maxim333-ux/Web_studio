@@ -25,6 +25,11 @@ body {
 a {
   text-decoration: none;
 }
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 ul,
 p,
 h1,
@@ -173,6 +178,7 @@ H1 {
 .what-we-do {
   display: flex;
   justify-content: space-between;
+ 
 }
 .what-we-do img {
   width: 370px;
@@ -419,4 +425,30 @@ address {
 
   width: 18px;
   height: 18px;
+}
+.what-we-do .text{
+ 
+  color: #fff;
+  font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+
+align-items: center;
+
+}
+.what-we-do-item{
+ position: relative;
+}
+
+.what-we-do div{
+ display: flex;
+  justify-content: center;
+align-items: center;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+background: rgba(28, 28, 35, 0.8);
+width: 370px;
+height: 70px;
 }
