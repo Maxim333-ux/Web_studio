@@ -409,13 +409,10 @@ address {
 }
 .close {
   position: absolute;
-  padding: 6px;
-  border: 1px;
-  background-color: #78787809;
+  border: 0;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border-color: #000000;
   right: 8px;
   top: 8px;
 }
