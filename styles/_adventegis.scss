@@ -1,0 +1,22 @@
+
+.adwantages {
+    display: flex;
+    justify-content: space-between;
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: var(--logo-color);
+}
+.itemt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--secondary-text-color);
+}
+}
+
+
+

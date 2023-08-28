@@ -1,0 +1,82 @@
+.logi {
+    margin-bottom: 4px;
+}
+
+.bobiki {
+    border: 1px solid #eeeeee;
+}
+
+.title2 {
+    padding-bottom: 50px;
+}
+
+address {
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.kek {
+    margin-bottom: 9px;
+}
+
+.bobiki {
+    width: calc((100% - 90px) / 3);
+    margin: 15px;
+    padding-bottom: 20px;
+}
+.butoncik {
+    background: var(--background-color);
+    background-color: #f5f4fa;
+    padding: 6px 22px 6px 22px;
+    font-weight: 700;
+    border-radius: 4px;
+    font-weight: 125px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    border: none;
+    margin-left: 8px;
+}
+
+.butoncik:hover,
+.butoncik:focus {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.lol {
+    margin-right: 30px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+.butonciki,
+.daun:not(:first-child) {
+    padding-bottom: 50px;
+
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.gmail {
+
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: -15px;
+}

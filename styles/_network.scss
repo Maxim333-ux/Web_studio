@@ -1,0 +1,74 @@
+.network-list {
+
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.network-item {
+    padding-right: 10px;
+}
+
+.network-link {
+
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    color: var(--secondary-text-color);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.network-icon {
+    fill: currentColor;
+}
+
+.network-link:hover,
+.network-link:focus {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    border-radius: 50%;
+}
+
+.navik {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: var(--logo-color);
+}
+
+.sur-neme {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 16px;
+    color: var(--secondary-text-color);
+    padding-top: 10px;
+}
+.img-slot {
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    padding: 30px 100px 30px 100px;
+}
+
+.img-slot-list {
+
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 94px;
+}
