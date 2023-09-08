@@ -26,11 +26,12 @@
     font-size: 26px;
     line-height: 31px;
     color: var(--accent-color);
-}
-
 & > span {
     color: var(--logo-color);
 }
+}
+
+
 .nav-list {
 
     display: flex;
