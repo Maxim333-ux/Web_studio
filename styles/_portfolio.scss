@@ -23,6 +23,7 @@ address {
     width: calc((100% - 90px) / 3);
     margin: 15px;
     padding-bottom: 20px;
+    
 }
 .butoncik {
     background: var(--background-color);
@@ -79,4 +80,14 @@ address {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: -15px;
+}
+.thumb{
+    position: relative;
+   
+}
+.overlay{
+     position: absolute;
+    background-color: var(--accent-color);
+    top: 0;
+    bottom: 0;
 }
