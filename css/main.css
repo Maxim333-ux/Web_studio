@@ -33,11 +33,15 @@ li {
 }
 
 .container {
-  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen {
+  .container {
+    min-width: 480px;
+  }
 }
 
 a {
@@ -622,6 +626,17 @@ address {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: -15px;
+}
+
+.thumb {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  background-color: var(--accent-color);
+  top: 0;
+  bottom: 0;
 }
 
 .symbol-icon {
