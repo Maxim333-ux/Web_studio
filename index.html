@@ -14,11 +14,25 @@
   <body>
     <header>
       <section class="sekshion">
-  <div class="container header">
-          <nav>
-          <!-- Логотип -->
-       <a class="logo" href="./">Web<span>Studio</span></a>
+  <div class="container header"data-menu>
+
+<a class="logo" href="./">Web<span>Studio</span></a>
+ <button type="button" class="viutils" data-menu-button>
+            <svg width="40" haight="40"> 
+              <use href="./imagis/advanture/symbol-defs.svg#burgier" class="open-pop"></use>
+              <use href="./imagis/advanture/symbol-defs.svg#opolik" class="close-pop"></use>
+            </svg>
+          </button>
+
+
+
+
+
+  
           <!--Навігація -->
+          <!-- Логотип -->
+           <div class="mobile">
+     <nav>
           <ul class="nav-list">
           <li class="nav-item">
             <a class="nav-link" href="./">Студія</a>
@@ -44,8 +58,8 @@
           </svg>
           +38 096 111 11 11</a></li>
         </ul>
-      </nav>
-        
+      </nav> 
+        </div>
         
         <!-- шапка сайту --></div></section>
     
@@ -419,25 +433,7 @@
           </div>
           </section>
     </footer>
-     <script>
-      const refs = {
-        openModalBtn: document.querySelector("[data-open-modal]"),
-        closeModalBtn: document.querySelector("[data-close-modal]"),
-        backdrop: document.querySelector("[data-backdrop]"),
-      };
-
-      refs.openModalBtn.addEventListener("click", toggleModal);
-      refs.closeModalBtn.addEventListener("click", toggleModal);
-
-      refs.backdrop.addEventListener("click", logBackdropClick);
-
-      function toggleModal() {
-        refs.backdrop.classList.toggle("is-hidden");
-      }
-
-      function logBackdropClick() {
-        console.log("Это клик в бекдроп");
-      }
-    </script>
+    <script src="./styles/js/mobile-menu.js"></script>
+    <script src="./styles/js/modal.js"></script>
   </body>
 </html>
