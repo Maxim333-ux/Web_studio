@@ -1,7 +1,13 @@
 
 .adwantages {
-    display: flex;
+@media screen and (max-width:$mobile) {
+
+        display: flex;
+    }
+    
+        @media screen and (min-width:$tablet) {
     justify-content: space-between;
+            }
 .title {
     font-weight: 700;
     font-size: 14px;
@@ -17,6 +23,7 @@
     color: var(--secondary-text-color);
 }
 }
+
 
 
 

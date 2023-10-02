@@ -41,16 +41,18 @@
 }
 .what-we-doa {
 
+@media screen and (min-width:$tablet) {
+
     display: flex;
+}
+  
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
 .what-we-doa img {
     margin-bottom: 30px;
-    height: 260px;
-    width: 270px;
-    z-index: 0;
+  
 }
 .title2 {
     font-weight: 700;
